@@ -1,0 +1,104 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+ul{
+    display: flex;
+    /* align-items: center; */
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 50px;
+}
+li{
+    padding: 0px 30px;
+}
+
+button{
+    border: white solid blueviolet;
+    border-radius: 30px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+
+.button:hover{
+    background-color: aqua;
+    color: black;
+    border-radius: 30px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transform: translateY(-4px) scale(0.5);
+
+}
+
+.btn{
+    background-color: blue;
+    border: blue;
+    padding: 10px 20px;
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.btn:hover{
+    background-color: rgb(13, 203, 237);
+    border: blue;
+    padding: 10px 20px;
+    cursor: pointer;
+    transform: translateY(0px) scale(0.9);
+}
+main{
+    display: flex;
+    padding: 10px 50px;
+}
+
+
+ .image{
+    padding: 20px ;
+    margin: 20px;
+ }   
+
+
+.pic1{
+
+    position: relative;
+    border-radius: 40% 40% 40% 0;
+    
+}
+
+.pic2{
+    position: relative;
+    border-radius: 40% 40% 0 40%;
+    right: 70px;
+    bottom: 350px;
+    border: 3px solid gray;
+    
+
+}
+
+.pic3{
+    position: relative;
+    border-radius: 40% 0 40% 40%;
+    bottom: 150px;
+    left: 170px;
+   
+
+}
+
+.pad{
+    padding: 10px 100px;
+}
+
+.div1{
+    padding: 100px 20px;
+}
+
+
